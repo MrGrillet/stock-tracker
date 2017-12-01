@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is going to be a stock/ share tracking app that allows you to follow others.
 
 Things you may want to cover:
 
