@@ -1,1 +1,9 @@
-<h1>Finance Tracker</h1>
+<div class="jumbotron"> 
+	<h1>Finance Tracker</h1>
+	<p class="lead" >Get rich overnight by playing the stockmarket</p>
+	<% if current_user %>
+			<%= link_to 'View Stocks', my_portfolio_path, class: "btn btn-primary btn-lg"  %>
+		<% else %>
+			<%= link_to 'Start Now', "/users/sign_in", class: "btn btn-primary btn-lg"  %>
+		<% end %>
+</div>
