@@ -23,3 +23,33 @@
 .no-padding {
 	padding: 0px !important;
 }
+
+.no-padding {
+	padding: 0px !important;
+}
+
+.right-padding {
+	padding-right: 15px !important;
+	padding-left: 0px !important;
+}
+
+.logout {
+	padding-left: 0px;
+}
+
+.user-name{
+	padding-top: 15px;
+}
+
+.nav.navbar-right li {
+	.btn {
+		color: #fff !important;
+		margin-top: 5%;
+
+	}
+
+	.btn-danger:hover {
+		background-color: darken(#d9534f, 20%) !important;
+	}
+
+}
