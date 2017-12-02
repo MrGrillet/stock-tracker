@@ -25,11 +25,11 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">StockTracker</a>
+        <a class="navbar-brand" href="/">StockTracker</a>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
             <li><%= link_to "Link1", "/path1"  %></li>
-            <li><%= link_to "Link2", "/path2"  %></li>
+            <li><%= link_to "My Portfolio", my_portfolio_path  %></li>
             <li><%= link_to 'logout', destroy_user_session_path, method: :delete %></li>
           </ul>
         </div>
@@ -46,8 +46,7 @@
           <div class="well sidebar-nav">
             <h3>Sidebar</h3>
             <ul class="nav nav-list">
-              <li class="nav-header">Sidebar</li>
-              <li><%= link_to "Link1", "/path1"  %></li>
+              <li><%= link_to "Pete's twitter", "http://twitter.com/mrgrillet"  %></li>
               <li><%= link_to "Link2", "/path2"  %></li>
               <li><%= link_to "Link3", "/path3"  %></li>
             </ul>
@@ -56,7 +55,7 @@
       </div><!--/row-->
 
       <footer>
-        <p>&copy; Company 2017</p>
+        <p>&copy; Mr Grillet 2017</p>
       </footer>
 
     </div> <!-- /container -->

@@ -14,3 +14,12 @@
  *= require_tree .
  *= require_self
  */
+
+
+.results-block {
+	display: inline-block;
+}
+
+.no-padding {
+	padding: 0px !important;
+}
