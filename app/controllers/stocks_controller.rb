@@ -11,6 +11,7 @@ def search
     format.js { render partial: 'users/result' }
   end
 end
+
 	private
 
 end
