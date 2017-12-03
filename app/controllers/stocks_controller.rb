@@ -1,5 +1,5 @@
 class StocksController < ApplicationController
-	
+	before_action :authenticate_user! 
 def search
   if params[:stock].blank?
        flash.now[:danger] = "You have entered an empty search string"

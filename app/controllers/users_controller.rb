@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-	
+	before_action :authenticate_user! 
 	def my_portfolio
 		@user = current_user
 		@user_stocks = current_user.stocks	
