@@ -4,6 +4,6 @@
 	<% if current_user %>
 			<%= link_to 'View Stocks', my_portfolio_path, class: "btn btn-primary btn-lg"  %>
 		<% else %>
-			<%= link_to 'Start Now', "/users/sign_in", class: "btn btn-primary btn-lg"  %>
+			<%= link_to "Signup", new_user_registration_path, class: "btn btn-primary btn-lg"  %>
 		<% end %>
 </div>
